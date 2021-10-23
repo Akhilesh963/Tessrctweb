@@ -1,0 +1,189 @@
+2021-09-29 18:11:53,290 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-29 18:11:54,976 WARNING werkzeug MainThread :  * Debugger is active!
+2021-09-29 18:11:55,007 INFO werkzeug MainThread :  * Debugger PIN: 144-118-800
+2021-09-29 18:11:55,219 INFO werkzeug Thread-1 :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-29 18:12:31,733 INFO werkzeug MainThread :  * Restarting with stat
+2021-09-29 18:12:33,316 WARNING werkzeug MainThread :  * Debugger is active!
+2021-09-29 18:12:33,340 INFO werkzeug MainThread :  * Debugger PIN: 144-118-800
+2021-09-29 18:12:33,483 INFO werkzeug Thread-1 :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-29 18:12:47,504 INFO werkzeug Thread-3 : 127.0.0.1 - - [29/Sep/2021 18:12:47] "GET / HTTP/1.1" 200 -
+2021-09-29 18:12:53,145 INFO app Thread-2 : selecting image
+2021-09-29 18:12:53,146 INFO app Thread-2 : selecting image<FileStorage: 'Wishing-You-And-Your-Family-A-Very-Happy-Ganesh-Chaturthi-Lord-Ganesha-Face-Picture.jpg' ('image/jpeg')>
+2021-09-29 18:12:53,162 DEBUG app Thread-2 : converting!
+2021-09-29 18:12:53,189 INFO app Thread-2 : text extracting.....
+2021-09-29 18:12:53,189 WARNING app Thread-2 : Warning level log
+2021-09-29 18:12:53,228 DEBUG PIL.PngImagePlugin Thread-2 : STREAM b'IHDR' 16 13
+2021-09-29 18:12:53,228 DEBUG PIL.PngImagePlugin Thread-2 : STREAM b'IDAT' 41 2688
+2021-09-29 18:12:53,923 INFO app Thread-2 : Extracted text is :NO
+Z
+e Happy
+Gamesh Chaturthi
+
+2021-09-29 18:12:53,923 INFO app Thread-2 : text extracted!
+2021-09-29 18:12:53,925 WARNING app Thread-2 : checking connection.....
+2021-09-29 18:12:54,178 DEBUG mysql.connector.connection Thread-2 : new_auth_plugin: caching_sha2_password
+2021-09-29 18:12:54,181 INFO app Thread-2 : connected to Database!
+2021-09-29 18:12:54,794 INFO werkzeug Thread-2 : 127.0.0.1 - - [29/Sep/2021 18:12:54] "POST /submitImage/ HTTP/1.1" 200 -
+2021-09-29 18:13:39,498 INFO app Thread-4 : selecting image
+2021-09-29 18:13:39,499 INFO app Thread-4 : selecting image<FileStorage: 'html-code-for-color-text-1.png' ('image/png')>
+2021-09-29 18:13:39,607 DEBUG app Thread-4 : converting!
+2021-09-29 18:13:39,615 INFO app Thread-4 : text extracting.....
+2021-09-29 18:13:39,616 WARNING app Thread-4 : Warning level log
+2021-09-29 18:13:39,631 DEBUG PIL.PngImagePlugin Thread-4 : STREAM b'IHDR' 16 13
+2021-09-29 18:13:39,631 DEBUG PIL.PngImagePlugin Thread-4 : STREAM b'IDAT' 41 4582
+2021-09-29 18:13:40,303 INFO app Thread-4 : Extracted text is :#FFOOOO
+#33DDFF
+
+2021-09-29 18:13:40,303 INFO app Thread-4 : text extracted!
+2021-09-29 18:13:40,305 WARNING app Thread-4 : checking connection.....
+2021-09-29 18:13:40,512 DEBUG mysql.connector.connection Thread-4 : new_auth_plugin: caching_sha2_password
+2021-09-29 18:13:40,514 INFO app Thread-4 : connected to Database!
+2021-09-29 18:13:40,604 ERROR app Thread-4 : 1050 (42S01): Table 'hi' already exists
+2021-09-29 18:13:40,610 INFO werkzeug Thread-4 : 127.0.0.1 - - [29/Sep/2021 18:13:40] "POST /submitImage/ HTTP/1.1" 200 -
+2021-10-13 22:47:36,547 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-13 22:47:37,625 WARNING werkzeug MainThread :  * Debugger is active!
+2021-10-13 22:47:37,639 INFO werkzeug MainThread :  * Debugger PIN: 144-118-800
+2021-10-13 22:47:37,797 INFO werkzeug Thread-1 :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-10-13 22:48:03,056 INFO werkzeug Thread-3 : 127.0.0.1 - - [13/Oct/2021 22:48:03] "GET / HTTP/1.1" 200 -
+2021-10-13 22:48:04,970 INFO werkzeug Thread-2 : 127.0.0.1 - - [13/Oct/2021 22:48:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-10-13 22:48:32,402 INFO app Thread-4 : selecting image
+2021-10-13 22:48:32,403 INFO app Thread-4 : selecting image<FileStorage: 'tumblr_pqe72dftcD1wv7k05_1280.png' ('image/png')>
+2021-10-13 22:48:32,694 DEBUG app Thread-4 : converting!
+2021-10-13 22:48:32,978 INFO app Thread-4 : text extracting.....
+2021-10-13 22:48:32,979 WARNING app Thread-4 : Warning level log
+2021-10-13 22:48:33,264 DEBUG PIL.PngImagePlugin Thread-4 : STREAM b'IHDR' 16 13
+2021-10-13 22:48:33,270 DEBUG PIL.PngImagePlugin Thread-4 : STREAM b'IDAT' 41 7203
+2021-10-13 22:48:36,130 INFO app Thread-4 : Extracted text is :f . .
+| WANT SOMETHING STRONGER
+THAN A MOMENT, LOVE
+f c
+
+2021-10-13 22:48:36,130 INFO app Thread-4 : text extracted!
+2021-10-13 22:48:36,131 WARNING app Thread-4 : checking connection.....
+2021-10-13 22:48:36,551 DEBUG mysql.connector.connection Thread-4 : new_auth_plugin: caching_sha2_password
+2021-10-13 22:48:36,564 INFO app Thread-4 : connected to Database!
+2021-10-13 22:48:36,652 ERROR app Thread-4 : 1050 (42S01): Table 'hi' already exists
+2021-10-13 22:48:36,689 INFO werkzeug Thread-4 : 127.0.0.1 - - [13/Oct/2021 22:48:36] "POST /submitImage/ HTTP/1.1" 200 -
+2021-10-17 15:29:37,283 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-17 15:29:39,084 WARNING werkzeug MainThread :  * Debugger is active!
+2021-10-17 15:29:39,107 INFO werkzeug MainThread :  * Debugger PIN: 144-118-800
+2021-10-17 15:29:39,276 INFO werkzeug Thread-1 :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-10-17 15:29:55,702 INFO werkzeug Thread-3 : 127.0.0.1 - - [17/Oct/2021 15:29:55] "GET / HTTP/1.1" 200 -
+2021-10-17 15:29:57,360 INFO werkzeug Thread-2 : 127.0.0.1 - - [17/Oct/2021 15:29:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-10-17 15:30:18,619 INFO app Thread-4 : selecting image
+2021-10-17 15:30:18,619 INFO app Thread-4 : selecting image<FileStorage: 'chftf.jpg' ('image/jpeg')>
+2021-10-17 15:30:18,796 DEBUG app Thread-4 : converting!
+2021-10-17 15:30:18,931 INFO app Thread-4 : text extracting.....
+2021-10-17 15:30:18,931 WARNING app Thread-4 : Warning level log
+2021-10-17 15:30:19,233 DEBUG PIL.PngImagePlugin Thread-4 : STREAM b'IHDR' 16 13
+2021-10-17 15:30:19,246 DEBUG PIL.PngImagePlugin Thread-4 : STREAM b'IDAT' 41 1944
+2021-10-17 15:30:22,226 INFO app Thread-4 : Extracted text is :
+2021-10-17 15:30:22,226 INFO app Thread-4 : text extracted!
+2021-10-17 15:30:22,228 WARNING app Thread-4 : checking connection.....
+2021-10-17 15:30:23,485 DEBUG mysql.connector.connection Thread-4 : new_auth_plugin: caching_sha2_password
+2021-10-17 15:30:24,226 INFO app Thread-4 : connected to Database!
+2021-10-17 15:30:24,593 ERROR app Thread-4 : 1050 (42S01): Table 'hi' already exists
+2021-10-17 15:30:24,641 INFO werkzeug Thread-4 : 127.0.0.1 - - [17/Oct/2021 15:30:24] "POST /submitImage/ HTTP/1.1" 200 -
+2021-10-17 15:30:44,076 INFO app Thread-5 : selecting image
+2021-10-17 15:30:44,076 INFO app Thread-5 : selecting image<FileStorage: 'images.jpg' ('image/jpeg')>
+2021-10-17 15:30:44,085 DEBUG app Thread-5 : converting!
+2021-10-17 15:30:44,088 INFO app Thread-5 : text extracting.....
+2021-10-17 15:30:44,089 WARNING app Thread-5 : Warning level log
+2021-10-17 15:30:44,090 DEBUG PIL.PngImagePlugin Thread-5 : STREAM b'IHDR' 16 13
+2021-10-17 15:30:44,090 DEBUG PIL.PngImagePlugin Thread-5 : STREAM b'IDAT' 41 890
+2021-10-17 15:30:44,926 INFO app Thread-5 : Extracted text is :CORONAVIRUS
+
+2021-10-17 15:30:44,926 INFO app Thread-5 : text extracted!
+2021-10-17 15:30:44,929 WARNING app Thread-5 : checking connection.....
+2021-10-17 15:30:45,183 DEBUG mysql.connector.connection Thread-5 : new_auth_plugin: caching_sha2_password
+2021-10-17 15:30:45,186 INFO app Thread-5 : connected to Database!
+2021-10-17 15:30:45,188 ERROR app Thread-5 : 1050 (42S01): Table 'hi' already exists
+2021-10-17 15:30:45,194 INFO werkzeug Thread-5 : 127.0.0.1 - - [17/Oct/2021 15:30:45] "POST /submitImage/ HTTP/1.1" 200 -
+2021-10-17 15:31:31,993 INFO werkzeug Thread-8 : 127.0.0.1 - - [17/Oct/2021 15:31:31] "GET / HTTP/1.1" 200 -
+2021-10-17 15:31:58,963 INFO app Thread-11 : selecting image
+2021-10-17 15:31:58,963 INFO app Thread-11 : selecting image<FileStorage: 'tumblr_pqe72dftcD1wv7k05_1280.png' ('image/png')>
+2021-10-17 15:31:59,028 DEBUG app Thread-11 : converting!
+2021-10-17 15:31:59,161 INFO app Thread-11 : text extracting.....
+2021-10-17 15:31:59,161 WARNING app Thread-11 : Warning level log
+2021-10-17 15:31:59,163 DEBUG PIL.PngImagePlugin Thread-11 : STREAM b'IHDR' 16 13
+2021-10-17 15:31:59,163 DEBUG PIL.PngImagePlugin Thread-11 : STREAM b'IDAT' 41 7203
+2021-10-17 15:32:00,032 INFO app Thread-11 : Extracted text is :f . .
+| WANT SOMETHING STRONGER
+THAN A MOMENT, LOVE
+f c
+
+2021-10-17 15:32:00,032 INFO app Thread-11 : text extracted!
+2021-10-17 15:32:00,034 WARNING app Thread-11 : checking connection.....
+2021-10-17 15:32:00,238 DEBUG mysql.connector.connection Thread-11 : new_auth_plugin: caching_sha2_password
+2021-10-17 15:32:00,240 INFO app Thread-11 : connected to Database!
+2021-10-17 15:32:00,242 ERROR app Thread-11 : 1050 (42S01): Table 'hi' already exists
+2021-10-17 15:32:00,248 INFO werkzeug Thread-11 : 127.0.0.1 - - [17/Oct/2021 15:32:00] "POST /submitImage/ HTTP/1.1" 200 -
+2021-10-17 15:50:23,376 INFO werkzeug Thread-16 : 127.0.0.1 - - [17/Oct/2021 15:50:23] "GET / HTTP/1.1" 200 -
+2021-10-17 16:24:30,429 INFO app Thread-19 : selecting image
+2021-10-17 16:24:30,430 INFO app Thread-19 : selecting image<FileStorage: 'tumblr_pqe72dftcD1wv7k05_1280.png' ('image/png')>
+2021-10-17 16:24:30,466 DEBUG app Thread-19 : converting!
+2021-10-17 16:24:30,489 INFO app Thread-19 : text extracting.....
+2021-10-17 16:24:30,490 WARNING app Thread-19 : Warning level log
+2021-10-17 16:24:30,492 DEBUG PIL.PngImagePlugin Thread-19 : STREAM b'IHDR' 16 13
+2021-10-17 16:24:30,493 DEBUG PIL.PngImagePlugin Thread-19 : STREAM b'IDAT' 41 7203
+2021-10-17 16:24:31,433 INFO app Thread-19 : Extracted text is :f . .
+| WANT SOMETHING STRONGER
+THAN A MOMENT, LOVE
+f c
+
+2021-10-17 16:24:31,433 INFO app Thread-19 : text extracted!
+2021-10-17 16:24:31,435 WARNING app Thread-19 : checking connection.....
+2021-10-17 16:24:31,689 DEBUG mysql.connector.connection Thread-19 : new_auth_plugin: caching_sha2_password
+2021-10-17 16:24:31,693 INFO app Thread-19 : connected to Database!
+2021-10-17 16:24:31,698 ERROR app Thread-19 : 1050 (42S01): Table 'hi' already exists
+2021-10-17 16:24:31,703 INFO werkzeug Thread-19 : 127.0.0.1 - - [17/Oct/2021 16:24:31] "POST /submitImage/ HTTP/1.1" 200 -
+2021-10-21 18:14:17,913 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-21 18:14:18,841 WARNING werkzeug MainThread :  * Debugger is active!
+2021-10-21 18:14:18,911 INFO werkzeug MainThread :  * Debugger PIN: 144-118-800
+2021-10-21 18:14:19,024 INFO werkzeug Thread-1 :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-10-21 18:14:45,126 INFO werkzeug Thread-2 : 127.0.0.1 - - [21/Oct/2021 18:14:45] "GET / HTTP/1.1" 200 -
+2021-10-21 18:14:53,645 INFO werkzeug Thread-3 : 127.0.0.1 - - [21/Oct/2021 18:14:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-10-21 18:15:03,152 INFO app Thread-5 : selecting image
+2021-10-21 18:15:03,152 INFO app Thread-5 : selecting image<FileStorage: 'antivirus.pdf' ('application/pdf')>
+2021-10-21 18:15:03,248 DEBUG app Thread-5 : converting!
+2021-10-21 18:15:03,456 INFO werkzeug Thread-5 : 127.0.0.1 - - [21/Oct/2021 18:15:03] "[35m[1mPOST /submitImage/ HTTP/1.1[0m" 500 -
+2021-10-21 18:15:04,462 INFO werkzeug Thread-6 : 127.0.0.1 - - [21/Oct/2021 18:15:04] "GET /submitImage/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-10-21 18:15:04,470 INFO werkzeug Thread-4 : 127.0.0.1 - - [21/Oct/2021 18:15:04] "GET /submitImage/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-10-21 18:15:04,510 INFO werkzeug Thread-7 : 127.0.0.1 - - [21/Oct/2021 18:15:04] "GET /submitImage/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-10-21 18:15:04,718 INFO werkzeug Thread-8 : 127.0.0.1 - - [21/Oct/2021 18:15:04] "GET /submitImage/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-10-21 18:15:04,734 INFO werkzeug Thread-9 : 127.0.0.1 - - [21/Oct/2021 18:15:04] "GET /submitImage/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-10-23 00:01:37,830 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-23 00:01:39,095 WARNING werkzeug MainThread :  * Debugger is active!
+2021-10-23 00:01:39,145 INFO werkzeug MainThread :  * Debugger PIN: 144-118-800
+2021-10-23 00:01:39,256 INFO werkzeug Thread-1 :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-10-23 00:01:55,524 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/Oct/2021 00:01:55] "GET / HTTP/1.1" 200 -
+2021-10-23 00:02:01,378 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/Oct/2021 00:02:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-10-23 00:06:14,289 INFO app Thread-6 : selecting image
+2021-10-23 00:06:14,289 INFO app Thread-6 : selecting image<FileStorage: 'khhuioh.jpg' ('image/jpeg')>
+2021-10-23 00:06:14,552 DEBUG app Thread-6 : converting!
+2021-10-23 00:06:14,914 INFO app Thread-6 : text extracting.....
+2021-10-23 00:06:14,915 WARNING app Thread-6 : Warning level log
+2021-10-23 00:06:15,273 DEBUG PIL.PngImagePlugin Thread-6 : STREAM b'IHDR' 16 13
+2021-10-23 00:06:15,288 DEBUG PIL.PngImagePlugin Thread-6 : STREAM b'IDAT' 41 8192
+2021-10-23 00:06:20,089 INFO app Thread-6 : Extracted text is :hey:
+7) . vt AT Mes
+P xe So :
+ae 4
+wal yt .
+T ¥ RUN AND GO
+AW
+ee a
+v va . ake
+Dy 1 _
+ABs Oy
+Moreen. oY
+eur te cat
+Li Nee ven Te stay
+K |
+
+2021-10-23 00:06:20,089 INFO app Thread-6 : text extracted!
+2021-10-23 00:06:20,103 WARNING app Thread-6 : checking connection.....
+2021-10-23 00:06:21,374 DEBUG mysql.connector.connection Thread-6 : new_auth_plugin: caching_sha2_password
+2021-10-23 00:06:22,207 INFO app Thread-6 : connected to Database!
+2021-10-23 00:06:22,890 ERROR app Thread-6 : 1050 (42S01): Table 'hi' already exists
+2021-10-23 00:06:22,913 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/Oct/2021 00:06:22] "POST /submitImage/ HTTP/1.1" 200 -
